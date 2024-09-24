@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./assests/css/style.css" />
+  </head>
+
+  <body>
+    
+    <header>
+      <img class="logo" src="./assests/images/1.png" alt="Logo" />
+      <nav class="navbar">
+        <ul>
+          <li><a class="about" href="../../index.html">About</a></li>
+          <li><a class="vis" href="">Visit</a></li>
+          <li><a class="news" href="">News</a></li>
+          <li><a class="job" href="">Job Application</a></li>
+          <li><a class="con" href="./assests/contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="14113bf4-6b3f-453a-b59d-87abb505ec8c" />
+        <div class="input-box">
+          <input type="text" name="name" required placeholder=" " />
+          <label>Name</label>
+        </div>
+
+        <div class="input-box">
+          <input type="email" name="email" required placeholder=" " />
+          <label>Email</label>
+        </div>
+
+        <div class="input-box">
+          <textarea name="message" required placeholder=" "></textarea>
+          <label>Message</label>
+        </div>
+
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+  </body>
+</html>

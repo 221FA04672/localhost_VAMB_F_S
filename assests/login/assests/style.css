@@ -1,0 +1,115 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/05.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+}
+header {
+    border: 2px solid white;
+    backdrop-filter: blur(9px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: larger;
+}
+
+.navbar ul a:hover {
+    color: #deb763;
+}
+
+.form {
+    border: 2px solid white;
+    backdrop-filter: blur(9px);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    margin-left: 50%;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.name,.email, .password {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #000000;
+}  

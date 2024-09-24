@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="./assests/css/job.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="line">
+      <header>
+        <img class="logo" src="./assests/images/1.png" alt="Logo" />
+        <nav class="navbar">
+          <ul>
+            <li><a class="Home" href="../home/home.html">HOME</a></li>
+            <li><a class="about" href="../about/about.html">About</a></li>
+            <li><a class="vis" href="../visit/visit.html">Visit</a></li>
+            <li><a class="job" href="./job.html"> Application </a></li>
+            <li><a class="con" href="../contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="login">
+          <li><a class="login-btn" href="../login/login.html">LOGIN</a></li>
+        </nav>      
+      </header>  
+    </div>
+
+    <main>
+      <div class="contact-box">
+        <h2>Application for Helping in Farm </h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="becc0213-14d1-4a3d-9fab-daee0aeb6d3c" />
+          
+          <div class="input-box">
+            <input type="text" name="name" required placeholder="" />
+            <label>Name</label>
+          </div>
+
+          <div class="input-box">
+            <input type="email" name="email" required placeholder=" " />
+            <label>Email</label>
+          </div>
+
+          <div class="input-box">
+            <input type="tel" name="phone" required placeholder=" " />
+            <label>Phone Number</label>
+          </div>
+
+          <div class="input-box">
+            <input type="text" name="position" required placeholder=" " />
+            <label>Teneure(inWords)</label>
+          </div>
+
+          <div class="input-box">
+            <textarea name="cover_letter" required placeholder=" "></textarea>
+            <label>Any Experience</label>
+          </div>
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="quick-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a class="Home" href="../../../index.html">HOME</a></li>
+            <li><a class="about" href="../about/about.html">About</a></li>
+            <li><a class="vis" href="../visit/visit.html">Visit</a></li>
+            <li><a class="job" href="./job.html"> Application </a></li>
+            <li><a class="con" href="./index.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-logo">
+          <img src="./assests/images/1.png" alt="Vamb Farm Sanctuary Footer Logo">
+        </div>
+        <div class="social-icons">
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Vamb Farm Sanctuary. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./assests/js/job.js"></script>
+</html>
